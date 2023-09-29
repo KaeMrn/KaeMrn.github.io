@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Portfolio Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/d4ff64d931.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <script src="script/script.js"></script>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark bg-very-black">
+      <div class="container">
+        <a class="navbar-brand" href="#">MERAIN Kawther</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="bgimage" id="home">
+        <div class="overlay"></div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+              <h2 class="hero_title">Hello, I'm <span id="typing-text"></span></h2>
+              <p class="hero_desc">I am an IT student, and an aspiring web developper based in Marseille</p>
+              <div class="top-social-icons mt-4">
+                <a href="https://github.com/KaeMrn" target="_blank"><i class="fab fa-github social1"></i></a>
+                <a href="https://linkedin.com/in/kawther-merain" target="_blank"><i class="fab fa-linkedin social1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.jpg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> I am an aspiring web developer and coding enthusiast with a background in geosciences.
+                       I am currently studying computer science and dedicated to pursuing a career in web development.
+                        My diverse background in geosciences has equipped me with a unique perspective and problem-solving
+                         skills that I believe will be invaluable in the world of web development.
+                       With a passion for coding and a relentless desire to learn and innovate, I am eager to embark on this exciting journey to become a skilled and successful web developer.
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="">
+                            <ul>
+                                <li><strong>Name:</strong> MERAIN Kawther.</li>
+                                <li><strong>Formation:</strong> MSC-PRO architecte logiciel, développeuse d’application à Epitech.</li>
+                                <li><strong>Alternance:</strong> En développement web.</li>
+
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="row mt-3">
+                        <p> I am currently seeking an internship opportunity from January 2024 to August 2026 to pursue my passion for web development. My goal is to become a skilled web developer, and I am dedicated to learning and evolving in this dynamic field.
+                          I am enthusiastic about working with modern web technologies and collaborating with talented professionals in the IT industry. My commitment to web development is strong, and I am ready to tackle challenges to achieve my goals in this exciting and constantly evolving field.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="skills">
+      <div class="container">
+        <h1 class="text-center">Skills</h1>
+        <div class="column">
+          <div class="row">
+          <div class="col-lg-4 mt-4">
+            <div class="card skillsText">
+              <div class="card-body text-center">
+                <i class="fas skillsIcon fa-code" style="color: #000000;"></i>
+                <h4 class="card-title mt-3">Programming Languages</h4>
+                <P class="card-text mt-3">Python - HTML - CSS - JavaScript - PHP</P>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4">
+            <div class="card skillsText">
+              <div class="card-body text-center">
+                <i class="fas skillsIcon fa-sitemap" style="color: #000000;"></i>
+                <h4 class="card-title mt-3">Frameworks</h4>
+                <P class="card-text mt-3">Bootstrap - jQuery - materialize </P>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4">
+            <div class="card skillsText">
+              <div class="card-body text-center">
+                <i class="fas skillsIcon fa-microchip" style="color: #000000;"></i>
+                <h4 class="card-title mt-3">Tools</h4>
+                <P class="card-text mt-3">Git - GitHub - Bash - Visual Studio Code - NetBeans</P>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="row last">
+          <div class="col-lg-4 mt-4">
+            <div class="card skillsText">
+              <div class="card-body text-center">
+                <i class="fas skillsIcon fa-language" style="color: #000000;"></i>
+                <h4 class="card-title mt-3">Languages</h4>
+                <P class="card-text mt-3">Trilingue: English, French, Arabic</P>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4">
+            <div class="card skillsText">
+              <div class="card-body text-center">
+                <i class="fas skillsIcon fa-book-open-reader" style="color: #000000;"></i>
+                <h4 class="card-title mt-3">Abilities</h4>
+                <P class="card-text mt-3">Information research and processing<br>
+                  Collecting and analyzing data<br>
+                  Project management </P>
+              </div>
+            </div>
+          </div>
+        </div>
+         </div>
+      </div>
+      
+    </section>
+    <section id="portfolio">
+      <div class="container mt-3">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="row">
+          <div class="col-lg-4 mt-4">
+            <div class="card Project">
+              <img class="card-img-top" src="images/JOBBOARD.png" alt="dev project jobboard" style="width: 100%;">
+              <div class="card-body">
+                <h4 class="card-title text-center">Job Board</h4>
+                <p class="card-text">Create a website for listing job offers, following good practices of 3-tier architecture and using an API. Technologies: HTML, CSS, JavaScript, and an open-source web framework.</p>
+                <div class="text-center">
+                  <a href="link.html" class="btn btn-dark" target="_blank">Link</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4">
+            <div class="card Project">
+              <img class="card-img-top" src="images/reddit-hero.png" alt="dev project redditech" style="width: 100%;">
+              <div class="card-body">
+                <h4 class="card-title text-center">Redditech</h4>
+                <p class="card-text">'Create a mobile or desktop application to retrieve information from an existing website (Reddit). Use OAuth2 for authentication, and communicate with an existing Rest API (using JS, .Net, Java)</p>
+                <div class="text-center">
+                  <a href="link.html" class="btn btn-dark" target="_blank">Link</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4">
+            <div class="card Project">
+              <img class="card-img-top" src="images/DevOps.png" alt="dev project jobboard" style="width: 100%;">
+              <div class="card-body">
+                <h4 class="card-title text-center">My Marvin</h4>
+                <p class="card-text">Set up automated deployment with Jenkins using 'configuration-as-code.' Manage permissions, user groups, and generate tasks dynamically. Technology stack: DevOps, Jenkins, CI/CD.</p>
+                <div class="text-center">
+                  <a href="link.html" class="btn btn-dark" target="_blank">Link</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container mt-3 contact">
+        <h1 class="text-center">Contact Me</h1>
+        <div class="row mt-4">
+          <div class="col-lg-6 mt-3 d-flex justify-content-center">
+            <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;">
+              <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;">
+                <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Marseille,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+              </div>
+              <a class="embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="get-data-for-map">premium bootstrap themes</a>
+              <style>#canvas-for-googlemap img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style>
+            </div>
+
+          </div>
+          <div class="col-lg-6 mt-3">
+            <form  action="https://formspree.io/f/xvojvzgn" method="POST">
+              <input type="text" class="form-control mt-3" placeholder="Name" name="name">
+              <input type="email" class="form-control mt-3" placeholder="Email" name="email">
+              <input type="text" class="form-control mt-3" placeholder="Subject" name="subject">
+              <div class="mb-3 mt-3">
+                <textarea class="form-control" rows="5" placeholder="Type your message here..." name="message"></textarea>
+              </div>
+             <div class="text-center">
+            <button type="submit" class="btn btn-dark mt-3">Send</button>
+          </div>
+        </form> 
+        </div>
+        </div>
+
+      </div>
+
+    </section>
+    </main>
+</body>
+<footer>
+  <div class="container-fluid">
+    <div class="social-icons mt-4">
+            <a href="https://github.com/KaeMrn" target="_blank"><i class="fab fa-github social2"></i></a>
+            <a href="https://linkedin.com/in/kawther-merain" target="_blank"><i class="fab fa-linkedin social2"></i></a>
+    </div>
+  </div>
+</footer>
+</html>
